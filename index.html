@@ -20,37 +20,37 @@
         Odin Library
       </div>
       <div class="input-module">
-        <label class="unselectable" for="firstName">
+        <label class="unselectable" for="title">
           Book Title
           <abbr title="required" aria-label="required">*</abbr>
         </label>
-        <input type="text" id="firstName" name="firstName" required>
+        <input type="text" id="title" name="title" required>
       </div>
       <div class="input-module">
-        <label class="unselectable" for="firstName">
+        <label class="unselectable" for="author">
           Author
           <abbr title="required" aria-label="required">*</abbr>
         </label>
-        <input type="text" id="firstName" name="firstName" required>
+        <input type="text" id="author" name="author" required>
       </div>
       <div class="input-module">
-        <label class="unselectable" for="firstName">
+        <label class="unselectable" for="pages">
           Number of Pages
           <abbr title="required" aria-label="required">*</abbr>
         </label>
-        <input type="text" id="firstName" name="firstName" required>
+        <input type="text" id="pages" name="pages" pattern="^[0-9]+$" required>
       </div>
       <div class="input-checkbox">
-        <input type="checkbox" id="firstName" name="firstName" required>
+        <input type="checkbox" id="readStatus" name="readStatus">
         <label class="unselectable" for="firstName">
           Already read?
         </label>
       </div>
-      <button type="button">Add Book</button>
+      <button class="addbutton" type="button">Add Book</button>
     </div>
     <div class="body">
       <table class="booklist">
-        <tr>
+        <tr class="table-header">
           <th style="border-radius: 1em 0 0 0">Title</th>
           <th>Author</th>
           <th># of Pages</th>
