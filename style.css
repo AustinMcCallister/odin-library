@@ -116,6 +116,7 @@ label > abbr {
 }
 
 table {
+  table-layout: fixed;
   box-shadow: 0 0 15px -5px #4C566A;
   border-radius: 1em 1em 0 0;
 }
