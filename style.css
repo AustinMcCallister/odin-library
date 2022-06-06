@@ -121,6 +121,10 @@ table {
   border-radius: 1em 1em 0 0;
 }
 
+tr.table-header {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 tr:nth-child(odd) {
   background-color: #E5E9F0;
 }
